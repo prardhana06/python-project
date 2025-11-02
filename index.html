@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carrier Launch Pad</title>
+  <style>
+    body { background: radial-gradient(circle, #ffffff 0%, #a8d5ba 30%, #6fae8e 60%, #3e7f5c 100%); height: 100vh; margin: 0; font-family: Arial, sans-serif; }
+    .container { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+    h1 { color: #3e7f5c; margin-bottom: 20px; }
+    h2 { color: #6fae8e; margin-bottom: 40px; }
+    button { background: #903ae2; color: #fff; border: none; border-radius: 24px; padding: 12px 36px; font-size: 1.2rem; cursor: pointer; transition: background 0.3s;}
+    button:hover { background: #6fae8e; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Carrier Launch Pad</h1>
+    <h2>"Empowering Your Future: Start Strong, Go Far"</h2>
+    <button id="getStartedBtn">Get Started</button>
+  </div>
+  <script>
+    document.getElementById('getStartedBtn').onclick = function() {
+      window.location.href = 'login.html';
+    }
+  </script>
+</body>
+</html>
